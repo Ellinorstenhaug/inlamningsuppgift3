@@ -1,13 +1,15 @@
 function mickis() {
     let n = prompt('Skriv in ett nummer:')
+    fakultet(n);
 
     function fakultet(n) {
-        if (n != 0 && n != isNaN(n)) {
-            return (n * (n - 1));
+        if (n > 0 && n != isNaN(n)) {
+            return (n * (fakultet(n - 1)));
+        } else if (n == 0){
+            return 1;
         } else {
-            alert('Fakultet kan endast beräknas på tal större än 0, testa igen!');
-            prompt('Skriv in den siffran du vill räkna fakultet på:')
+            return 'Fakultet kan endast beräknas på tal större än 0, testa igen!';
         }
     }
-    console.log(fakultet(0))
+    alert(fakultet(n));
 }

@@ -30,16 +30,18 @@
         </h3>
 
         <h3><strong>Uppgift 2</strong><br>Skriv ett program som använder Pythagoras sats för att beräkna hypotenusans längd i en rätvinklig triangel.</h3>
-        <button onclick="HTML2()">Uppgift 2</button>
+        <button onclick="HTML2()">Beräkna hypotenusa</button>
 
         <h3><strong>Uppgift 3</strong><br>
             Skriv ett program som läser in en cirkels radie från en dialogruta.
             Programmet ska beräkna cirkelns omkrets och area.
             Visa resultaten i en dialogruta.</h3>
-        <button onclick="html3()">Uppgift 2</button>
+        <button onclick="html3()">Beräkna omkrets & area</button>
 
         <h3><strong>Uppgift 4</strong><br>
             Skriv ett program som beräknar volymen och arean av en sfär.</h3>
+            <p>För att orsaka förvirring, testa skriv i radien 3. :-)</p>
+            <button onclick="html4()">Beräkna omkrets & area</button>
 
             <hr>
             <h2>Del 2 - VG-Nivå</h2>
@@ -54,6 +56,8 @@
                 över förekomsten av ettor, tvåor, osv.</li>
                 <li> Skriv ut tabellen i konsolfönstret.</li>
                 <li> Testa programmet flera gånger för att kontrollera att du får olika tabeller vid varje körning</li></h3>
+                <button onclick="tillMahmud()"">Slumpa!</button>
+
             <h3><strong>Uppgift 6 – Beräkna fakultet (factorial)</strong><br>
                 <li> Fakultet är en funktion inom matematiken.
                 För ett heltal större än noll är fakulteten lika med
@@ -65,9 +69,21 @@
                 mellan 1 och 1000.</li>
                 <li> Testa funktionen via en prompt (i webbläsaren).</li>
                 <li> Visa resultatet på webbsidan (ej alert eller console).</li></h3>
-            <h3><strong>Uppgift 5</strong><br></h3>
+                <button onclick="tillMahmud()"">Faktorisera!</button>
+
+                <button onclick="factorial()"">Faktorisera!</button>
+                <button onclick="mickis()"">Faktorisera, mickis!</button>
+                <div class="factorize"></div>
     </div>
+    <script src="uppgift1.js"></script>
     <script src="uppgift2.js"></script>
+    <script src="uppgift3.js"></script>
+    <script src="uppgift4.js"></script>
+    <script src="uppgift5.js"></script>
+    <script src="uppgift6.js"></script>
+    <script src="uppgift6.1.js"></script>
+    <script src="tillMahmud.js"></script>
+
 </body>
 
 </html>
