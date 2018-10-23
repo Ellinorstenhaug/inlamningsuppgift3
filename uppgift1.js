@@ -19,4 +19,5 @@ let Adress = function (gatuadress, postnummer, ort){
 let ellinor = new Person("Ellinor", "ellinor.stenhaug@gmail.com", "0701233456", new Adress("Strandskatevägen 4","134 62", "Ingarö"));
 let mikaela = new Person("Mikaela", "mikaela_johansson@hotmail.com", "0701233456", new Adress("Åstorpsringen 19","121 32", "Enskededalen"));
 
+
 console.log(ellinor.print());
