@@ -24,15 +24,16 @@ function factorial() {
             return sum;
         } else if (number == 0) { //Fråga mahmud, varför går det ej med 3 ===
             return 1;
-        } else if (!Number.isFinite(sum)) {
+        } else if (sum = Number.POSITIVE_INFINITY) {
             return "Den funkar!";
         } else {
             return "AJAJ! Det får man inte faktorisera! Testa ett annat nummer!";
         }
     }
-    alert(result);
+    //alert(calculation(number));
+    console.log(calculation(2));
+    
 }
-
 
 //     for (let i = 0; i < 10; i++) {
 //         sum = calculation(i);
