@@ -18,3 +18,4 @@ function checkNumber(arrDice){
 let arraytest = randomDice()
 console.log(arraytest);
 console.log(checkNumber(arraytest));
+console.table(newArr);
