@@ -1,6 +1,6 @@
 function uppgift5_2() {
     let ggr = prompt("Hur många gånger vill du kasta tärningen?");
-    alert("Mahmud kolla i konsolen \nGlad halloween!");
+    alert("Mahmud kolla i konsolen \nGlad halloween!🎃");
 
     function randomDice() {
         let arrDice = [];
@@ -18,8 +18,7 @@ function uppgift5_2() {
             }
         }
         console.log('Ettor\tTvåor\tTreor\tFyror\tFemmor\tSexor');
-        return `${smallArr[0]}\t${smallArr[1]}\t${smallArr[2]}\t${smallArr[3]}\t${smallArr[4]}\t${smallArr[5]}`
+        return `${smallArr[0]}\t\t${smallArr[1]}\t\t${smallArr[2]}\t\t${smallArr[3]}\t\t${smallArr[4]}\t\t${smallArr[5]}`
     }
     console.log(randomDice());
 }
-uppgift5_2();

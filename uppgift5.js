@@ -11,6 +11,6 @@ function uppgift5() {
         smallArr[number - 1]++; //När number är 1 ska den plussa på värdet på index 0 i smallArr. 
     }
     console.log('Ettor\tTvåor\tTreor\tFyror\tFemmor\tSexor');
-    let tabell = `${smallArr[0]}\t${smallArr[1]}\t${smallArr[2]}\t${smallArr[3]}\t${smallArr[4]}\t${smallArr[5]}`;
+    let tabell = `${smallArr[0]}\t\t${smallArr[1]}\t\t${smallArr[2]}\t\t${smallArr[3]}\t\t${smallArr[4]}\t\t${smallArr[5]}`;
     console.log(tabell);
 }

@@ -11,7 +11,7 @@ function uppgift5_1() {
 
     let smallArr = new Array(6).fill(0);
 
-    function checkNumber(arrDice) { //Parametern är arrayen arrDice som returneras av randomDice, dvs värdet av alla slumpade tärningskast. 
+    function print(arrDice) { //Parametern är arrayen arrDice som returneras av randomDice, dvs värdet av alla slumpade tärningskast. 
         for (let i = 0; i < arrDice.length; i++) { 
             number = arrDice[i];
             smallArr[number - 1]++;
@@ -19,5 +19,5 @@ function uppgift5_1() {
         console.log('Ettor\tTvåor\tTreor\tFyror\tFemmor\tSexor');
         return `${smallArr[0]}\t\t${smallArr[1]}\t\t${smallArr[2]}\t\t${smallArr[3]}\t\t${smallArr[4]}\t\t${smallArr[5]}`; //Använder två \t för att få en snygg tabell i browswer consolen
     }
-    console.log(checkNumber(randomDice()));
+    console.log(print(randomDice()));
 }
