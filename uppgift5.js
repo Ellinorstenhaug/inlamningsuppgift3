@@ -4,10 +4,10 @@ function uppgift5() {
     alert("Mahmud! Kolla i konsolen \nGlad halloween🎃");
 
     let arrDice = []; 
-    let smallArr = new Array(6).fill(0); 
-    for (let i = 0; i < ggr; i++) {
+    let smallArr = new Array(6).fill(0);  // Gör en Array med 6 platser för att spara värdet på varsin plats. Eftersom man inte kan en plats som är tom '' i arrayen så fyller man upp den med talet 0 med hjälp av metoden fill() som finns till array.
+    for (let i = 0; i < ggr; i++) { // Den här forloopen genererar slumpmässiga tal mellan 1-6 som representerar tärningsslagen. Antalet ggr man vill kasta tärningen läses in via prompt.
         arrDice[i] = Math.floor((Math.random() * 6) + 1); // arrDice[i] väljer plats i arrayen och tilldelas värdet av slumpmässiga tal genererat av ((Math.random() * 6) +1) Math.floor avrundar talet nedåt och visar ett heltal.
-        let number = arrDice[i]; 
+        let number = arrDice[i]; // number sparar värdet som finns på index 'i' i arrDice.
         smallArr[number - 1]++; //När number är 1 ska den plussa på värdet på index 0 i smallArr. 
     }
     console.log('Ettor\tTvåor\tTreor\tFyror\tFemmor\tSexor');

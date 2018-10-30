@@ -5,7 +5,7 @@ function uppgift5_2() {
     function randomDice() {
         let arrDice = [];
         let smallArr = new Array(6).fill(0); // Gör en Array med 6 platser för att spara värdet på varsin plats. Eftersom man inte kan en plats som är tom '' i arrayen så fyller man upp den med talet 0 med hjälp av metoden fill() som finns till array.
-        for (let i = 0; i < ggr; i++) { // Den här forloopen genererar slumpmässiga tal mellan 1-6 som repsenterar tärningsslagen. Antalet ggr man vill kasta tärningen läses in via prompt.
+        for (let i = 0; i < ggr; i++) { // Den här forloopen genererar slumpmässiga tal mellan 1-6 som representerar tärningsslagen. Antalet ggr man vill kasta tärningen läses in via prompt.
             arrDice[i] = Math.floor((Math.random() * 6) + 1); // arrDice[i] väljer plats i arrayen och tilldelas värdet av slumpmässiga tal genererat av ((Math.random() * 6) +1) Math.floor avrundar talet nedåt och visar ett heltal.
             let number = arrDice[i] // number sparar värdet som finns på index 'i' i arrDice.
             switch (number) { // Beroende på vad number får för värde så kommer den plussa på den specifika platsen i smallArr.
