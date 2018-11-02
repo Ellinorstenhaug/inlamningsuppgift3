@@ -1,7 +1,7 @@
 function uppgift5_1() {
     function randomDice() {
         let ggr = prompt ("Hur många gånger vill du kasta tärningen?");
-        alert("Mahmud! Kolla i konsolen!\nGlad halloween på dig 🎃");
+        alert("Mahmud! Kolla i konsolen!\nGlad halloween på dig 🎃 🎄 🎅🏽");
         let arrDice = []; 
         for (let i = 0; i < ggr; i++) {  // Den här forloopen genererar slumpmässiga tal mellan 1-6 som representerar tärningsslagen. Antalet ggr man vill kasta tärningen läses in via prompt.
             arrDice[i] = Math.floor((Math.random() * 6) + 1); // arrDice[i] väljer plats i arrayen och tilldelas värdet av slumpmässiga tal genererat av ((Math.random() * 6) +1) Math.floor avrundar talet nedåt och visar ett heltal.

@@ -1,6 +1,6 @@
 function uppgift5_2() {
     let ggr = prompt("Hur många gånger vill du kasta tärningen?");
-    alert("Mahmud kolla i konsolen \nGlad halloween!🎃");
+    alert("Mahmud kolla i konsolen \nGlad halloween!🎃 🎄 🎅🏽");
 
     function randomDice() {
         let arrDice = [];

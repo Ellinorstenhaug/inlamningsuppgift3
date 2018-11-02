@@ -1,7 +1,7 @@
 //Denna lösning saknar en funktion, som efterfrågas i uppgiften. Dock är den snygg så vi tog med den ändå :-D
 function uppgift5() {
     let ggr = prompt("Hur många gånger vill du kasta tärningen?");
-    alert("Mahmud! Kolla i konsolen \nGlad halloween🎃");
+    alert("Mahmud! Kolla i konsolen \nGlad halloween 🎄 🎅🏽 🎃");
 
     let arrDice = []; 
     let smallArr = new Array(6).fill(0);  // Gör en Array med 6 platser för att spara värdet på varsin plats. Eftersom man inte kan en plats som är tom '' i arrayen så fyller man upp den med talet 0 med hjälp av metoden fill() som finns till array.
